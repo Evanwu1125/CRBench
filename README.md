@@ -1,6 +1,8 @@
 # CRBench
 
-This is the official repository for the paper **“Boosting Text-to-Chart Retrieval through Synthesized Hierarchical Insights.”**
+This is the official repository for the **EMNLP 2026** paper **“Boosting Text-to-Chart Retrieval through Synthesized Hierarchical Insights.”**
+
+[![arXiv](https://img.shields.io/badge/arXiv-2505.10043-b31b1b.svg)](https://arxiv.org/abs/2505.10043)
 
 ## Overview
 
