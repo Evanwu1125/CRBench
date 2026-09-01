@@ -2,13 +2,17 @@
 
 This is the official repository for the paper **“Boosting Text-to-Chart Retrieval through Synthesized Hierarchical Insights,”** accepted to the **EMNLP 2026 Main Conference**.
 
-[![arXiv](https://img.shields.io/badge/arXiv-2505.10043-b31b1b.svg)](https://arxiv.org/abs/2505.10043)
+[![arXiv](https://img.shields.io/badge/arXiv-2505.10043-b31b1b.svg)](https://arxiv.org/abs/2505.10043) [![Hugging Face Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-CRBench-FFD21E)](https://huggingface.co/datasets/lutaoyan/CRBench)
 
 ## Overview
 
 CRBench is a benchmark for text-to-chart retrieval built from real-world business intelligence scenarios. It contains **326 text queries** and **21,862 charts**, with query-chart relevance labels verified through crowdsourcing.
 
 We further introduce a semantic insight synthesis pipeline and **ChartFinder**, a strong text-to-chart retrieval model trained with hierarchical insights. The synthesized insights help the model bridge the gap between chart appearance and the analytical intent expressed in natural-language queries.
+
+## Dataset
+
+The complete source data for the CRBench benchmark is publicly available on [Hugging Face](https://huggingface.co/datasets/lutaoyan/CRBench). It includes the chart images crawled from real-world BI sources, together with the corresponding precise and fuzzy query annotations.
 
 ## CRBench Construction
 
