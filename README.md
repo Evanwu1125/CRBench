@@ -30,6 +30,12 @@ Our automatic pipeline transforms chart metadata into three complementary levels
 
 ChartFinder learns visual-semantic representations from chart images and synthesized insights during training. At inference time, it directly matches a natural-language query against chart images and ranks the charts by embedding similarity.
 
+## Case Study
+
+![Case study of text-to-chart retrieval results](assets/case-study.png)
+
+The case study compares the Top-1 retrieval results of ChartFinder and CLIP, highlighting ChartFinder's stronger ability to identify charts that match the semantic intent of user queries.
+
 ## License
 
 This project is released under the [MIT License](LICENSE).
